@@ -18,7 +18,6 @@ body {
 
 #container {
     width: 80%;
-    max-width: 1300px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -33,7 +32,7 @@ body {
     text-align: center;
 }
 
-.buttonAdd, .buttonCheck{
+#intro .buttonAdd, .buttonCheck{
     margin: 30px 20px;
 }
 
@@ -88,7 +87,7 @@ footer{
 /* MODAL */
 
 #modal{
-background-color: #FA6488;
+background-color: #F53C69;
 
 position: absolute;
 top: 100px;
@@ -100,6 +99,8 @@ height: 70vh;
 display: flex;
 justify-content: center;
 transition-duration: 1s;
+
+transition: 600ms;
 
 }
 
@@ -147,4 +148,61 @@ form label{
 
 .hide{
     visibility: hidden;
+    opacity: 0;
+}
+
+/*IDEIAS.HTML */
+#ideias-page header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ideias-page #container{
+    display: block;
+}
+
+#ideias-page body{
+        background-color: #f1eef0;
+        font-family: 'Baloo Thambi 2',
+            cursive;
+        color: #3281B3;
+        line-height: 2;
+}
+
+.nav{
+    margin-top: 60px;
+}
+
+.nav-item{
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+section.title{
+    margin: 0;
+}
+
+section.title p {
+    margin: 0;
+    opacity: 0.7;
+}
+
+section.title h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+#ideias-page #ideas{
+    margin: 50px auto;
+
+}
+
+#ideias-page #ideas .idea {
+    margin: 10px auto;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
