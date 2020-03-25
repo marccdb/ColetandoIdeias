@@ -4,25 +4,147 @@ font-family: 'Ubuntu', sans-serif;
 */
 
 
-.logo{
-    width: 20%;
+body {
+    background-color: #f1eef0;
+    font-family: 'Baloo Thambi 2',
+        cursive;
+    color: #3281B3;
+    line-height: 2;
 }
 
-body{
-    background-color: #E4E9E4;
+.logo{
+    width: 70%;
+}
+
+#container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    font-size: 1.2rem;
+}
+#intro {
+    width: 1000px;
+    margin-right: 150px;
+}
+
+#buttons, footer{
     text-align: center;
 }
 
-p{
-    color: #3281B3;
-    font-family: 'Baloo Thambi 2',
-    cursive;
+.buttonAdd, .buttonCheck{
+    margin: 30px 20px;
 }
 
-button{
-    margin: 20px 20px;
+#ideas{
+    margin: 90px auto 100px;
+    text-align: left;
 }
 
-#footer{
-  font-style: italic;
+.tituloIdeia{
+    color: #f76a8c;
+    margin-bottom: 0;
+}
+
+.idea a{
+    color: red;
+    
+}
+
+.image{
+    width: 80px;
+    margin: auto 20px;
+}
+
+.description{
+    font-size: 1rem;
+}
+
+.idea{
+    font-family: 'Ubuntu',
+    sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 20px;
+    border: solid 1px;
+    padding: 10px;
+    box-shadow: 0 4px 20px -8px black;
+    border-radius: 6px;
+}
+
+.idea p{
+    color: #ff82a1;
+    margin-bottom: 0;
+}
+
+footer{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+/* MODAL */
+
+#modal{
+background-color: #FA6488;
+
+position: absolute;
+top: 100px;
+left: 600px;
+
+width: 40vw;
+height: 70vh;
+
+display: flex;
+justify-content: center;
+transition-duration: 1s;
+
+}
+
+#modal .content{
+    color: white;
+padding: 20px;
+
+}
+
+#modal h1{
+    text-align: center;
+}
+
+#modal form{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#modal .input-wrapper{
+    margin: 10px auto;
+    
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+
+form label{
+    font-weight: 600px;
+}
+
+.botoesForm{
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.buttonSave, .buttonBack{
+    margin: 0 50px;
+}
+
+.hide{
+    visibility: hidden;
 }

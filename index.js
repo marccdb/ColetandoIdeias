@@ -1,4 +1,4 @@
-document.querySelector("button").addEventListener("click", function(){
-    document.querySelector("#footer").classList.toggle("hide");
+document.querySelector(".buttonAdd").addEventListener("click", function(){
+    document.querySelector("#modal").classList.toggle("hide");
 
 });
