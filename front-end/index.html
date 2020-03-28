@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coletando ideias</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <section id="intro">
+            <header><img class="logo" src="/images/logo.png" alt="Logo Coletando Ideias"></header>
+
+            <main>
+                <p>Em tempos dificeis, é imprescindível gerarmos novas ideias
+                    para nos mantermos ativos e com a cabeça ocupada.</p>
+                <p>Pensando nisso, foi criado o "Coletando Ideias", um site para coletar, armazenar
+                    e compartilhar as mais diversas ideias para realizarmos durante este período.</p>
+            </main>
+
+            <section id="buttons">
+                <button class="buttonAdd btn btn-primary">+ Adicionar Ideia</button>
+                <a href="ideias.html"><button class="buttonCheck btn btn-outline-primary">Ver Ideias</button></a>
+                
+            </section>
+            <footer>2020 - Marcio Del Bianco</footer>
+        </section>
+
+        <section id="ideas">
+            <div class="idea">
+                <img class="image" src="https://image.flaticon.com/icons/svg/2728/2728871.svg" alt="Image Estudar">
+                <div class="content">
+                    <h4 class="tituloIdeia">Fazer um curso</h4>
+                    <p>Estudo</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quas ipsam repudiandae dolor
+                        distinctio, vel perspiciatis atque, dicta, harum consectetur ipsum enim minus quidem omnis
+                        facere
+                        voluptatem iste? Quidem, pariatur.
+                        <br>
+                        <a href="">Ver a ideia</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img class="image" src="https://image.flaticon.com/icons/svg/2728/2728970.svg" alt="Image Gardening">
+                <div class="content">
+                    <h4 class="tituloIdeia">Cuidar do jardim</h4>
+                    <p>Tarefa</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quas ipsam repudiandae dolor
+                        distinctio, vel perspiciatis atque, dicta, harum consectetur ipsum enim minus quidem omnis
+                        facere
+                        voluptatem iste? Quidem, pariatur.
+                        <br>
+                        <a href="">Ver a ideia</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img class="image" src="https://image.flaticon.com/icons/svg/2728/2728977.svg" alt="Image Excercise">
+                <div class="content">
+                    <h4 class="tituloIdeia">Se exercitar</h4>
+                    <p>Atividade</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quas ipsam repudiandae dolor
+                        distinctio, vel perspiciatis atque, dicta, harum consectetur ipsum enim minus quidem omnis
+                        facere
+                        voluptatem iste? Quidem, pariatur.
+                        <br>
+                        <a href="">Ver a ideia</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <!--Modal-->
+    <div class="hide" id="modal">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Título da ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Descreva sua ideia</label>
+                    <textarea name="description" cols="60" rows="5"></textarea>
+                </div>
+                    <div class="botoesForm">
+                    <button class="btn btn-light buttonSave">Salvar</button>
+                    <button class="btn btn-light buttonBack">Voltar</button>
+                    </div>
+            </form>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
