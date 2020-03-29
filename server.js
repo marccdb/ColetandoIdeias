@@ -1,6 +1,7 @@
 
 const express = require('express');
 const nunjucks = require("nunjucks");
+const db = require("./db");
 
 const app = express();
 
